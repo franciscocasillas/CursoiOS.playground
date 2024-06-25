@@ -11,4 +11,13 @@ var totalClases:Float = 100
 var porcentaje:Float = (asistencias / totalClases) * 100
 print(porcentaje)
 
+/*Ejercicio 2: Calculador de IMC
+ Declara dos variables. Peso (en kilogramos) y altura (en metros)
+ Calcula el ImC utilizando la fórmula IMC = peso / (altura*altura)
+ Imprime el resultado
+*/
 
+var peso:Float = 70
+var altura:Float = 1.78
+var imc:Float = peso / (altura*altura)
+print("Tu índice de masa corporal es \(imc)")
