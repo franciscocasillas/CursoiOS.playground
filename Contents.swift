@@ -21,3 +21,14 @@ var peso:Float = 70
 var altura:Float = 1.78
 var imc:Float = peso / (altura*altura)
 print("Tu índice de masa corporal es \(imc)")
+
+/*Ejercicio 3: Cálculo de descuento
+ Declara dos variables: precioOriginal y porcentajeDescuento
+ Calcula el precio después del descuento utilizando la fórmula: precioDescuento = precioOriginal - (precioOriginal * porcentajeDescuento / 100)
+ Imprime el precio original y el precio con descuento
+ */
+
+var precioOriginal:Float = 500
+var porcentajeDescuento:Float = 20
+var precioConDescuento:Float = precioOriginal - (precioOriginal * porcentajeDescuento / 100)
+print("El precio original es de \(precioOriginal)\nEl precio final aplicando el \(Int(porcentajeDescuento))% de descuento es de \(precioConDescuento)")
