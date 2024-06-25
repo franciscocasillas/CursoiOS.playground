@@ -32,3 +32,7 @@ var precioOriginal:Float = 500
 var porcentajeDescuento:Float = 20
 var precioConDescuento:Float = precioOriginal - (precioOriginal * porcentajeDescuento / 100)
 print("El precio original es de \(precioOriginal)\nEl precio final aplicando el \(Int(porcentajeDescuento))% de descuento es de \(precioConDescuento)")
+
+/* Ejercicio 4
+ 
+ */
